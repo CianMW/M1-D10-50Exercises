@@ -13,6 +13,46 @@ JS EXERCISES
         30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values
 
 */
+
+let exercise = (string) => {
+    console.log(`\n\n<-----------Exercise ${string}------------->`)
+}
+
+exercise(21)
 let x= "john"
 let y = "Doe"
 console.log(`${x} <> ${y}`)
+
+exercise(22)
+
+let profile = {
+    name: "cian",
+    surname: "Markwick",
+    email: "Markwick.c@gmail.com",
+}
+
+
+
+
+exercise(23)
+exercise(24)
+exercise(25)
+exercise(26)
+exercise(27)
+exercise(28)
+exercise(29)
+exercise(30)
+exercise(31)
+exercise(32)
+exercise(33)
+exercise(34)
+exercise(35)
+exercise(36)
+exercise(37)
+exercise(38)
+exercise(39)
+exercise(40)
+exercise(41)
+exercise(42)
+exercise(43)
+exercise(44)
