@@ -3,10 +3,14 @@ table, td, th{
     
 }
 table{
-    width: 100%;
+    width: 50%;
+    margin-bottom: 20px;
 }
 img{
     object-fit:fill;
     height: 200px;
     width: 200px;
+}
+hr{
+    margin-bottom: 20px;
 }
