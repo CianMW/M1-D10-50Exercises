@@ -65,7 +65,7 @@ let fillRandomNumberArray = () => {
 
 
     for (let i = 0; i < 100; i++) {
-        let newNumber = Math.floor(Math.random()*10)
+        let newNumber = Math.floor(Math.random()*100)
 
     randomNumberArray.push(newNumber)        
     }
@@ -74,6 +74,26 @@ let fillRandomNumberArray = () => {
 fillRandomNumberArray()
 console.log(randomNumberArray)
 exercise(27)
+
+
+let min = 100
+let max = 0
+let checkRandomNumberArray = () => {
+
+    randomNumberArray.forEach(number => {
+        if (number > max) {
+            max = number
+        }
+        if (number < min) {
+            min = number
+        }
+        
+    });
+}
+checkRandomNumberArray()
+console.log(`The minimum number is : ${min}.   The maximum number is : ${max}`)
+
+
 exercise(28)
 exercise(29)
 exercise(30)
