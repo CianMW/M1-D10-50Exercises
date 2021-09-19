@@ -1,9 +1,9 @@
 
 /* 
-        11) Give a maximum width to the body and center it in the page
-        12) Set every h1 to be centered
-        13) Change the color of each link in the page
-        14) Create a class with a border
+        *11) Give a maximum width to the body and center it in the page
+        *12) Set every h1 to be centered
+        *13) Change the color of each link in the page
+        *14) Create a class with a border
         15) Set table to have rounded corners
         16) Add margin between every paragraph
         17) Create a class which change font size and boldness
@@ -15,6 +15,12 @@ body{
     max-width: 100vw;
     text-align: center;
 
+}
+a{
+    color: brown;
+}
+.container{
+    border: .5px solid yellow;
 }
 h1{
     text-align: center;
