@@ -43,7 +43,20 @@ delete profile.email
 
 console.log(profile)
 exercise(24)
+
+
+let testArray = ["where","do","you","want","to","eat","tonight","?","pizza","or","chinese","?",]
+
 exercise(25)
+
+let printTestArray = () => {
+    for (let i = 0; i < testArray.length; i++) {
+        const element = testArray[i];
+        console.log(element)
+        
+    }
+}
+printTestArray()
 exercise(26)
 exercise(27)
 exercise(28)
