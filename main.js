@@ -73,6 +73,8 @@ let fillRandomNumberArray = () => {
 }
 fillRandomNumberArray()
 console.log(randomNumberArray)
+
+
 exercise(27)
 
 
@@ -95,6 +97,35 @@ console.log(`The minimum number is : ${min}.   The maximum number is : ${max}`)
 
 
 exercise(28)
+
+let multiArray = [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+
+]
+
+let populateMultiArray = () => {
+    multiArray.forEach(array => {
+
+        for (let i = 0; i < 10; i++) {
+            array.push(Math.floor(Math.random()*100))
+            
+        }
+        
+    });
+}
+populateMultiArray()
+console.log(multiArray)
+
+
 exercise(29)
 exercise(30)
 exercise(31)
