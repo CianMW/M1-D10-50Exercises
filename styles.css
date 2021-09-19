@@ -8,8 +8,8 @@
         * 16) Add margin between every paragraph
         * 17) Create a class which change font size and boldness
         * 18) Create a class to hide a content
-        19) Add a green border to each td
-        20) Add a dotted red border to each tr (note: tr does not accept a border property ;-) ) */
+        * 19) Add a green border to each td
+        * 20) Add a dotted red border to each tr (note: tr does not accept a border property ;-) ) */
 
 body{
     max-width: 100vw;
@@ -26,15 +26,13 @@ h1{
     text-align: center;
 }
 
-table, td, th{
-    border: 5px solid black;
-    
-}
+
 table{
     width: 50%;
     margin-bottom: 20px;
     border-radius: 5%;
     padding: 10px;
+    border: 5px solid black;
 }
 img{
     object-fit:fill;
@@ -61,6 +59,18 @@ p{
 .invisible{
     opacity: 0%;
 }
-td{
-    border-color: green;
+
+
+
+.show-border td {
+    border-top: 5px dotted red; 
+    border-bottom: 5px dotted red;
+}
+
+.show-border td:first-child {
+    border-left: 5px dotted red;
+}
+
+.show-border td:last-child {
+    border-right: 5px dotted red;
 }
