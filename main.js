@@ -58,6 +58,21 @@ let printTestArray = () => {
 }
 printTestArray()
 exercise(26)
+
+let randomNumberArray = []
+
+let fillRandomNumberArray = () => {
+
+
+    for (let i = 0; i < 100; i++) {
+        let newNumber = Math.floor(Math.random()*10)
+
+    randomNumberArray.push(newNumber)        
+    }
+
+}
+fillRandomNumberArray()
+console.log(randomNumberArray)
 exercise(27)
 exercise(28)
 exercise(29)
