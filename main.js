@@ -31,10 +31,17 @@ let profile = {
     email: "Markwick.c@gmail.com",
 }
 
+console.log(profile)
+
 
 
 
 exercise(23)
+
+
+delete profile.email
+
+console.log(profile)
 exercise(24)
 exercise(25)
 exercise(26)
