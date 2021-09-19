@@ -127,7 +127,18 @@ console.log(multiArray)
 
 
 exercise(29)
+
+let checkForLongerArray = (array1, array2) => {
+        if (array1.length > array2.legth) {
+            console.log(`The first array  is the longer array`)
+        } else {
+            console.log(`The second array is the longer array`)
+        }
+}
+
+checkForLongerArray(multiArray, randomNumberArray)
 exercise(30)
+
 exercise(31)
 exercise(32)
 exercise(33)
