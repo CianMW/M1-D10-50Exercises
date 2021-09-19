@@ -4,8 +4,8 @@
         *12) Set every h1 to be centered
         *13) Change the color of each link in the page
         *14) Create a class with a border
-        15) Set table to have rounded corners
-        16) Add margin between every paragraph
+        *15) Set table to have rounded corners
+        *16) Add margin between every paragraph
         17) Create a class which change font size and boldness
         18) Create a class to hide a content
         19) Add a green border to each td
@@ -33,6 +33,8 @@ table, td, th{
 table{
     width: 50%;
     margin-bottom: 20px;
+    border-radius: 5%;
+    padding: 10px;
 }
 img{
     object-fit:fill;
@@ -46,4 +48,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+p{
+    margin-bottom: 10px;
 }
